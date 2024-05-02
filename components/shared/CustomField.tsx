@@ -19,7 +19,6 @@ type CustomFieldProps = {
   formLabel?: string;
   className?: string;
 };
-
 export const CustomField = ({
   control,
   render,

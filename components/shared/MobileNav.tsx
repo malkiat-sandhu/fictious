@@ -1,5 +1,4 @@
 "use client"
-
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { navLinks } from "@/constants"
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs"

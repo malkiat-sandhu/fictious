@@ -8,7 +8,7 @@ import { plans } from "@/constants";
 import { getUserById } from "@/lib/actions/user.actions";
 import Checkout from "@/components/shared/Checkout";
 
-const Credits = async () => {
+ const Credits = async () => {
   const { userId } = auth();
 
   if (!userId) redirect("/sign-in");
